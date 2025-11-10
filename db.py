@@ -1,3 +1,4 @@
 students = [
-    {"name" : "Nahid"}
+    {"name" : "Nahid"},
+    {"name" : "Salman"},
 ]
