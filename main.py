@@ -1,8 +1,8 @@
 from utility import get_tution_fee
 
 class Student:
-    def __init__(self, name: str) -> None:
-        self.name=name
+    def __init__(self, marks: int) -> None:
+        self.marks = marks
 
     def tution_fees(self):
         return get_tution_fee(10)
