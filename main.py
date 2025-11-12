@@ -6,7 +6,7 @@ class Student:
     def tution_fees(self):
         return get_tution_fee(10)
 
-s = Student("abc")
-p = Student("Def")
-q = Student("xyz")
-x = Student("nahid")
+student1 = Student("abc")
+student2 = Student("Def")
+student3 = Student("xyz")
+student4 = Student("nahid")
