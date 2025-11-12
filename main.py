@@ -1,7 +1,7 @@
 from utility import get_tution_fee
 
 class Student:
-    def __init__(self, name, marks=0):
+    def __init__(self, name: str, marks: int=0) -> None:
         """
         Initialize a Student object.
         
@@ -13,7 +13,7 @@ class Student:
         self.marks = marks
         self.grade = self.calculate_grade(marks)
     
-    def get_tuition_fee(self):
+    def get_tuition_fee(self) -> float:
         """
         Retrieve the tuition fee using the utility function.
         
@@ -22,7 +22,7 @@ class Student:
         """
         return get_tution_fee(10)  # Example: fixed value, can be dynamic later
     
-    def calculate_grade(self, marks):
+    def calculate_grade(self, marks: int) -> str:
         """
         Calculate the student's grade based on their marks.
         
